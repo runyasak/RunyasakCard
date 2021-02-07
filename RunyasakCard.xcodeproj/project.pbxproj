@@ -17,6 +17,7 @@
 		83F55E0A25CFFFE000882243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F55DDE25CFFFE000882243 /* Assets.xcassets */; };
 		83F55E2025D001C700882243 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83F55E1F25D001C700882243 /* Pacifico-Regular.ttf */; };
 		83F55E3025D00E5D00882243 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83F55E2F25D00E5D00882243 /* avatar.jpg */; };
+		83F55E3A25D012FB00882243 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F55E3925D012FB00882243 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		83F55E0425CFFFE000882243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83F55E1F25D001C700882243 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		83F55E2F25D00E5D00882243 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		83F55E3925D012FB00882243 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				83F55DDD25CFFFDF00882243 /* ContentView.swift */,
 				83F55DDE25CFFFE000882243 /* Assets.xcassets */,
 				83F55E2F25D00E5D00882243 /* avatar.jpg */,
+				83F55E3925D012FB00882243 /* InfoView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83F55E0725CFFFE000882243 /* ContentView.swift in Sources */,
+				83F55E3A25D012FB00882243 /* InfoView.swift in Sources */,
 				83F55E0525CFFFE000882243 /* RunyasakCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
